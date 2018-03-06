@@ -1,7 +1,26 @@
+body {
+  padding: 0;
+  margin: 1em;
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  height: 100%;
+}
 .worldmap {
-  width: 90vw;
-  height: 90vh;
+  flex: 1 1 auto;
+  height: 100%;
 }
 
-.main {
+.countries {
+  border-right: 1px solid black;
+  padding-right: 1em;
+  overflow: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
+
+.countries .country {
+  margin: 2px 0 2px 0;
+}
+

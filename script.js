@@ -63,6 +63,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     if (!country.visited())
       continue;
     const div = document.createElement('div');
+    div.classList.add('country');
     div.textContent = country.name;
     countriesList.appendChild(div);
   }
