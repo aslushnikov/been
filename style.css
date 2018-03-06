@@ -2,3 +2,9 @@
   height: 655px;
   width: 1010px;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
