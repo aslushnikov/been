@@ -1,0 +1,8 @@
+
+.visited {
+  fill: #8bc34a;
+}
+
+.land:hover {
+  fill-opacity: 0.5;
+}
