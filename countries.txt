@@ -1,11 +1,11 @@
 + AE United Arab Emirates
   AF Afghanistan
   AL Albania
-  AM Armenia
++ AM Armenia
   AO Angola
   AR Argentina
   AT Austria
-  AU Australia
++ AU Australia
   AZ Azerbaijan
   BA Bosnia and Herzegovina
   BD Bangladesh
@@ -20,13 +20,13 @@
   BS Bahamas
   BT Bhutan
   BW Botswana
-  BY Belarus
++ BY Belarus
   BZ Belize
   CA Canada
   CD Democratic Republic of Congo
   CF Central African Republic
   CG Republic of Congo
-  CH Switzerland
++ CH Switzerland
   CI Côte d'Ivoire
   CL Chile
   CM Cameroon
@@ -35,25 +35,25 @@
   CR Costa Rica
   CU Cuba
   CY Cyprus
-  CZ Czech Republic
-  DE Germany
++ CZ Czech Republic
++ DE Germany
   DJ Djibouti
-  DK Denmark
++ DK Denmark
   DO Dominican Republic
   DZ Algeria
   EC Ecuador
-  EE Estonia
++ EE Estonia
   EG Egypt
   EH Western Sahara
   ER Eritrea
-  ES Spain
++ ES Spain
   ET Ethiopia
   FK Falkland Islands
-  FI Finland
++ FI Finland
   FJ Fiji
-  FR France
++ FR France
   GA Gabon
-  GB United Kingdom
++ GB United Kingdom
   GE Georgia
   GF French Guiana
   GH Ghana
@@ -76,11 +76,11 @@
   IQ Iraq
   IR Iran
   IS Iceland
-  IT Italy
++ IT Italy
   JM Jamaica
   JO Jordan
-  JP Japan
-  KE Kenya
++ JP Japan
++ KE Kenya
   KG Kyrgyzstan
   KH Cambodia
   KP North Korea
@@ -93,12 +93,12 @@
   LK Sri Lanka
   LR Liberia
   LS Lesotho
-  LT Lithuania
++ LT Lithuania
   LU Luxembourg
-  LV Latvia
++ LV Latvia
   LY Libya
   MA Morocco
-  MD Moldova
++ MD Moldova
   ME Montenegro
   MG Madagascar
   MK Macedonia
@@ -107,7 +107,7 @@
   MN Mongolia
   MR Mauritania
   MW Malawi
-  MX Mexico
++ MX Mexico
   MY Malaysia
   MZ Mozambique
   NA Namibia
@@ -115,20 +115,20 @@
   NE Niger
   NG Nigeria
   NI Nicaragua
-  NL Netherlands
++ NL Netherlands
   NO Norway
   NP Nepal
   NZ New Zealand
   OM Oman
   PA Panama
-  PE Peru
++ PE Peru
   PG Papua New Guinea
   PH Philippines
-  PL Poland
++ PL Poland
   PK Pakistan
   PR Puerto Rico
   PS Palestinian Territories
-  PT Portugal
++ PT Portugal
   PY Paraguay
   QA Qatar
   RO Romania
@@ -153,18 +153,18 @@
   TD Chad
   TF French Southern and Antarctic Lands
   TG Togo
-  TH Thailand
++ TH Thailand
   TJ Tajikistan
   TL Timor-Leste
   TM Turkmenistan
-  TN Tunisia
++ TN Tunisia
   TR Turkey
   TT Trinidad and Tobago
   TW Taiwan
   TZ Tanzania
-  UA Ukraine
++ UA Ukraine
   UG Uganda
-  US United States
++ US United States
   UY Uruguay
   UZ Uzbekistan
   VE Venezuela
