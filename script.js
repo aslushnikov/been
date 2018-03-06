@@ -30,6 +30,7 @@ function createCountries(svgDocument, mapData) {
     country.setVisited(visited);
     countries.push(country);
   }
+  countries.sort((a, b) => a.name.localeCompare(b.name));
   return countries;
 }
 
