@@ -10,6 +10,10 @@ class Country {
   setVisited(visited) {
     this.element.classList.toggle('visited', visited);
   }
+
+  visited() {
+    return this.element.classList.contains('visited');
+  }
 }
 
 function createCountries(svgDocument, mapData) {
@@ -30,10 +34,13 @@ function createCountries(svgDocument, mapData) {
 }
 
 window.addEventListener('DOMContentLoaded', async () => {
+  // Load all the assets.
   const mapElement = document.querySelector('.worldmap');
   const mapLoaded = new Promise(resolve => mapElement.onload = resolve);
   const mapData = await fetch('./countries.txt').then(response => response.text());
   await mapLoaded;
+
+  // Parse list into countries array.
   const svgDocument = mapElement.contentWindow.document;
   const countries = createCountries(svgDocument, mapData);
 
@@ -44,11 +51,20 @@ window.addEventListener('DOMContentLoaded', async () => {
   linkElm.setAttribute('rel', 'stylesheet');
   svgDocument.querySelector('defs').appendChild(linkElm);
 
-  // Mark countries as visited and add "title" to them all.
+  // Add tooltips to countries.
   for (const country of countries) {
     const titleElement = svgDocument.createElementNS('http://www.w3.org/2000/svg', 'title');
     titleElement.textContent = country.name;
     country.element.appendChild(titleElement);
+  }
+
+  const countriesList = document.querySelector('.countries');
+  for (const country of countries) {
+    if (!country.visited())
+      continue;
+    const div = document.createElement('div');
+    div.textContent = country.name;
+    countriesList.appendChild(div);
   }
 });
 
