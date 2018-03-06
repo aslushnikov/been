@@ -1,10 +1,7 @@
 .worldmap {
-  height: 655px;
-  width: 1010px;
+  width: 90vw;
+  height: 90vh;
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
