@@ -1,26 +1,122 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+html {
+  background-color: rgb(246, 246, 246);
+}
+
 body {
+  background-color: white;
+}
+
+:root {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+body {
+  color: #333;
   padding: 0;
-  margin: 1em;
-  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1280px;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "countries header"
+                       "countries map"
+                       "countries footer";
+  grid-template-columns: 250px auto;
+  grid-template-rows: 50px auto 50px;
+  grid-gap: 10px;
 }
-.content {
+
+header {
+  grid-area: header;
   display: flex;
-  height: 100%;
-}
-.worldmap {
-  flex: 1 1 auto;
-  height: 100%;
+  align-items: center;
 }
 
-.countries {
-  border-right: 1px solid black;
-  padding-right: 1em;
+.countrylist {
+  grid-area: countries;
+  border-left: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+  max-height: 100%;
+  min-height: 0;
   overflow: auto;
-  flex-grow: 0;
-  flex-shrink: 0;
+  --gap-left: 10px;
 }
 
-.countries .country {
-  margin: 2px 0 2px 0;
+.countrylist .region {
+  position: relative;
+}
+
+.countrylist .region .region-title {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 4px var(--gap-left);
+  background-color: #EEE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.countrylist .region .region-title h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.countrylist .region .entry {
+  margin: 0px var(--gap-left);
+  padding: 6px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.countrylist .region .entry.visited::after {
+  content: 'visited';
+  font-size: 10px;
+  --green: #4CAF50;
+  color: var(--green);
+  border: 1px solid var(--green);
+  padding: 1px 3px;
+  border-radius: 3px;
+}
+
+.countrylist .region .entry + .entry {
+  padding-top: var(--gap-left);
+  border-top: 1px solid #DDD;
+}
+
+.map {
+  grid-area: map;
+  margin: 1em;
+}
+
+.map svg {
+  min-width: 0;
+  min-height: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.map svg .revealing {
+  fill: blue !important;
+}
+
+.map svg .visited {
+  fill: #8bc34a;
+}
+
+.map svg .land:hover {
+  fill-opacity: 0.5;
+}
+
+footer {
+  grid-area: footer;
 }
 
