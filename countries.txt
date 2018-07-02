@@ -91,6 +91,7 @@
 
 - [ ] CA Canada
 - [ ] GL Greenland
+- [ ] SJ Svalbard and Jan Mayen
 - [x] MX Mexico
 - [x] US United States
 
@@ -119,23 +120,25 @@
 - [ ] CL Chile
 - [ ] CO Colombia
 - [ ] EC Ecuador
+- [ ] FK Falkland Islands
 - [ ] GF French Guiana
 - [ ] GY Guyana
-- [x] PE Peru
 - [ ] PY Paraguay
 - [ ] SR Suriname
 - [ ] UY Uruguay
 - [ ] VE Venezuela
+- [x] PE Peru
 
 # Oceania
 
-- [x] AU Australia
 - [ ] FJ Fiji
 - [ ] NC New Caledonia
 - [ ] NZ New Zealand
 - [ ] PG Papua New Guinea
 - [ ] SB Solomon Islands
+- [ ] TF French Southern and Antarctic Lands
 - [ ] VU Vanuatu
+- [x] AU Australia
 
 # Africa
 
@@ -191,10 +194,4 @@
 - [ ] ZA South Africa
 - [ ] ZM Zambia
 - [ ] ZW Zimbabwe
-
-
-# Unknown
-- [ ] FK Falkland Islands
-- [ ] SJ Svalbard and Jan Mayen
-- [ ] TF French Southern and Antarctic Lands
 
