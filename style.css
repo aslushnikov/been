@@ -65,7 +65,8 @@ header h3 {
   max-height: 100%;
   min-height: 0;
   overflow: auto;
-  --gap-left: 10px;
+  --gap: 10px;
+  cursor: pointer;
   /* support smooth scrolling on safari */
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -80,7 +81,7 @@ header h3 {
   position: -webkit-sticky;
   top: 0;
   background-color: white;
-  padding: 4px var(--gap-left);
+  padding: 4px var(--gap);
   background-color: #EEE;
   display: flex;
   justify-content: space-between;
@@ -92,7 +93,7 @@ header h3 {
 }
 
 .countrylist .region .entry {
-  margin: 0px var(--gap-left);
+  margin: 0px var(--gap);
   padding: 6px 0;
   display: flex;
   justify-content: space-between;
@@ -108,17 +109,17 @@ header h3 {
 }
 
 .countrylist .region .entry.visited::after {
-  content: 'visited';
-  font-size: 10px;
+  content: '✔';
+  font-size: 12px;
   --green: #4CAF50;
-  color: var(--green);
-  border: 1px solid var(--green);
+  color: white;
   padding: 1px 3px;
   border-radius: 3px;
+  background-color: var(--green);
 }
 
 .countrylist .region .entry + .entry {
-  padding-top: var(--gap-left);
+  padding-top: var(--gap);
   border-top: 1px solid #DDD;
 }
 
@@ -142,6 +143,10 @@ header h3 {
 
 .map svg .visited {
   fill: #8bc34a;
+}
+
+.map svg .land {
+  cursor: pointer;
 }
 
 .map svg .land.hovered {
