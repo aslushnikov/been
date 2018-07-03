@@ -28,16 +28,30 @@ body {
   display: grid;
   grid-template-areas: "countries header"
                        "countries map"
-                       "countries footer";
+                       "countries map";
   grid-template-columns: 250px auto;
   grid-template-rows: 50px auto 50px;
   grid-gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    grid-template-areas: "header"
+                         "map"
+                         "countries";
+    grid-template-columns: auto;
+    grid-template-rows: 50px 1fr 2fr;
+  }
 }
 
 header {
   grid-area: header;
   display: flex;
   align-items: center;
+}
+
+header h3 {
+  margin: 1em;
 }
 
 .countrylist {
