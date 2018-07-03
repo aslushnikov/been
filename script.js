@@ -115,9 +115,9 @@ async function onMapLoaded([map]) {
 
   // Reveal country when clicking
   map.element.addEventListener('click', revealCountry, false);
-  map.element.addEventListener('touchend', revealCountry, false);
+  map.element.addEventListener('tap', revealCountry, false);
   countrylist.addEventListener('click', revealCountry, false);
-  countrylist.addEventListener('touchend', revealCountry, false);
+  countrylist.addEventListener('tap', revealCountry, false);
 
   function hoverCountry(event) {
     let target = event.target;
