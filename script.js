@@ -149,7 +149,6 @@ async function onMapLoaded([map]) {
     if (revealedCountry) {
       revealedCountry.mapElement.classList.add('revealing');
       revealedCountry.sidebarElement.classList.add('revealing');
-      //revealedCountry.sidebarElement.scrollIntoView({block2: '', inline: 'center', behavior: 'smooth'});
       scrollIntoViewIfNeeded(revealedCountry.sidebarElement);
     }
   }
