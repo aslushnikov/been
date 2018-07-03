@@ -2,42 +2,42 @@
 
 - [ ] AL Albania
 - [ ] AT Austria
-- [ ] BA Bosnia and Herzegovina
-- [ ] BE Belgium
-- [ ] BG Bulgaria
 - [x] BY Belarus
-- [x] CH Switzerland
+- [ ] BE Belgium
+- [ ] BA Bosnia and Herzegovina
+- [ ] BG Bulgaria
+- [ ] HR Croatia
 - [x] CZ Czech Republic
-- [x] DE Germany
 - [x] DK Denmark
 - [x] EE Estonia
-- [x] ES Spain
 - [x] FI Finland
 - [x] FR France
-- [x] GB United Kingdom
+- [x] DE Germany
 - [ ] GR Greece
-- [ ] HR Croatia
 - [ ] HU Hungary
-- [ ] IE Ireland
 - [ ] IS Iceland
+- [ ] IE Ireland
 - [x] IT Italy
+- [ ] XK Kosovo
+- [x] LV Latvia
 - [x] LT Lithuania
 - [ ] LU Luxembourg
-- [x] LV Latvia
+- [ ] MK Macedonia
 - [x] MD Moldova
 - [ ] ME Montenegro
-- [ ] MK Macedonia
 - [x] NL Netherlands
 - [ ] NO Norway
 - [x] PL Poland
 - [x] PT Portugal
 - [ ] RO Romania
 - [ ] RS Serbia
-- [ ] SE Sweden
-- [ ] SI Slovenia
 - [ ] SK Slovakia
+- [ ] SI Slovenia
+- [x] ES Spain
+- [ ] SE Sweden
+- [x] CH Switzerland
 - [x] UA Ukraine
-- [ ] XK Kosovo
+- [x] GB United Kingdom
 
 # Asia
 
@@ -45,54 +45,54 @@
 - [x] AM Armenia
 - [ ] AZ Azerbaijan
 - [ ] BD Bangladesh
-- [ ] BN Brunei Darussalam
 - [ ] BT Bhutan
+- [ ] BN Brunei Darussalam
 - [ ] CN China
 - [ ] GE Georgia
-- [ ] ID Indonesia
-- [ ] IL Israel
 - [ ] IN India
-- [ ] IQ Iraq
+- [ ] ID Indonesia
 - [ ] IR Iran
-- [ ] JO Jordan
+- [ ] IQ Iraq
+- [ ] IL Israel
 - [x] JP Japan
-- [ ] KG Kyrgyzstan
-- [ ] KP North Korea
-- [ ] KR South Korea
-- [ ] KW Kuwait
+- [ ] JO Jordan
 - [ ] KZ Kazakhstan
+- [ ] KW Kuwait
+- [ ] KG Kyrgyzstan
 - [ ] LA Lao People's Democratic Republic
 - [ ] LB Lebanon
-- [ ] LK Sri Lanka
-- [ ] MM Myanmar
-- [ ] MN Mongolia
 - [ ] MY Malaysia
+- [ ] MN Mongolia
+- [ ] MM Myanmar
 - [ ] NP Nepal
+- [ ] KP North Korea
 - [ ] OM Oman
-- [ ] PH Philippines
 - [ ] PK Pakistan
 - [ ] PS Palestinian Territories
+- [ ] PH Philippines
 - [ ] QA Qatar
 - [x] RU Russia
 - [ ] SA Saudi Arabia
+- [ ] KR South Korea
+- [ ] LK Sri Lanka
 - [ ] SY Syria
-- [x] TH Thailand
-- [ ] TJ Tajikistan
-- [ ] TL Timor-Leste
-- [ ] TM Turkmenistan
-- [ ] TR Turkey
 - [ ] TW Taiwan
+- [ ] TJ Tajikistan
+- [x] TH Thailand
+- [ ] TL Timor-Leste
+- [ ] TR Turkey
+- [ ] TM Turkmenistan
+- [x] AE United Arab Emirates
 - [ ] UZ Uzbekistan
 - [ ] VN Vietnam
 - [ ] YE Yemen
-- [x] AE United Arab Emirates
 
 # North America
 
 - [ ] CA Canada
 - [ ] GL Greenland
-- [ ] SJ Svalbard and Jan Mayen
 - [x] MX Mexico
+- [ ] SJ Svalbard and Jan Mayen
 - [x] US United States
 
 # Central America
@@ -102,14 +102,14 @@
 - [ ] CR Costa Rica
 - [ ] CU Cuba
 - [ ] DO Dominican Republic
+- [ ] SV El Salvador
 - [ ] GT Guatemala
-- [ ] HN Honduras
 - [ ] HT Haiti
+- [ ] HN Honduras
 - [ ] JM Jamaica
 - [ ] NI Nicaragua
 - [ ] PA Panama
 - [ ] PR Puerto Rico
-- [ ] SV El Salvador
 - [ ] TT Trinidad and Tobago
 
 # South America
@@ -124,74 +124,74 @@
 - [ ] GF French Guiana
 - [ ] GY Guyana
 - [ ] PY Paraguay
+- [x] PE Peru
 - [ ] SR Suriname
 - [ ] UY Uruguay
 - [ ] VE Venezuela
-- [x] PE Peru
 
 # Oceania
 
+- [x] AU Australia
 - [ ] FJ Fiji
+- [ ] TF French Southern and Antarctic Lands
 - [ ] NC New Caledonia
 - [ ] NZ New Zealand
 - [ ] PG Papua New Guinea
 - [ ] SB Solomon Islands
-- [ ] TF French Southern and Antarctic Lands
 - [ ] VU Vanuatu
-- [x] AU Australia
 
 # Africa
 
+- [ ] DZ Algeria
 - [ ] AO Angola
-- [ ] BF Burkina Faso
-- [ ] BI Burundi
 - [ ] BJ Benin
 - [ ] BW Botswana
-- [ ] CD Democratic Republic of Congo
-- [ ] CF Central African Republic
-- [ ] CG Republic of Congo
-- [ ] CI Côte d'Ivoire
+- [ ] BF Burkina Faso
+- [ ] BI Burundi
+- [ ] KH Cambodia
 - [ ] CM Cameroon
+- [ ] CF Central African Republic
+- [ ] TD Chad
 - [ ] CY Cyprus
+- [ ] CI Côte d'Ivoire
+- [ ] CD Democratic Republic of Congo
 - [ ] DJ Djibouti
-- [ ] DZ Algeria
 - [ ] EG Egypt
-- [ ] EH Western Sahara
+- [ ] GQ Equatorial Guinea
 - [ ] ER Eritrea
 - [ ] ET Ethiopia
 - [ ] GA Gabon
-- [ ] GH Ghana
 - [ ] GM Gambia
+- [ ] GH Ghana
 - [ ] GN Guinea
-- [ ] GQ Equatorial Guinea
 - [ ] GW Guinea-Bissau
 - [x] KE Kenya
-- [ ] KH Cambodia
-- [ ] LR Liberia
 - [ ] LS Lesotho
+- [ ] LR Liberia
 - [ ] LY Libya
-- [ ] MA Morocco
 - [ ] MG Madagascar
+- [ ] MW Malawi
 - [ ] ML Mali
 - [ ] MR Mauritania
-- [ ] MW Malawi
+- [ ] MA Morocco
 - [ ] MZ Mozambique
 - [ ] NA Namibia
 - [ ] NE Niger
 - [ ] NG Nigeria
+- [ ] CG Republic of Congo
 - [ ] RW Rwanda
-- [ ] SD Sudan
-- [ ] SL Sierra Leone
 - [ ] SN Senegal
+- [ ] SL Sierra Leone
 - [ ] SO Somalia
+- [ ] ZA South Africa
 - [ ] SS South Sudan
+- [ ] SD Sudan
 - [ ] SZ Swaziland
-- [ ] TD Chad
+- [ ] TZ Tanzania
 - [ ] TG Togo
 - [x] TN Tunisia
-- [ ] TZ Tanzania
 - [ ] UG Uganda
-- [ ] ZA South Africa
+- [ ] EH Western Sahara
 - [ ] ZM Zambia
 - [ ] ZW Zimbabwe
 
