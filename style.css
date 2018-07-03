@@ -76,6 +76,7 @@ header h3 {
 
 .countrylist .region .region-title {
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   background-color: white;
   padding: 4px var(--gap-left);
