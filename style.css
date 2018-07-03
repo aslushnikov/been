@@ -98,6 +98,14 @@ header h3 {
   align-items: center;
 }
 
+.countrylist .region .entry.revealing {
+  color: blue !important;
+}
+
+.countrylist .region .entry.hovered {
+  color: rgba(0, 0, 255, 0.5);
+}
+
 .countrylist .region .entry.visited::after {
   content: 'visited';
   font-size: 10px;
@@ -127,13 +135,15 @@ header h3 {
 
 .map svg .revealing {
   fill: blue !important;
+  fill-opacity: 1 !important;
 }
 
 .map svg .visited {
   fill: #8bc34a;
 }
 
-.map svg .land:hover {
+.map svg .land.hovered {
+  fill: blue;
   fill-opacity: 0.5;
 }
 

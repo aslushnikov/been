@@ -105,42 +105,76 @@ async function onMapLoaded([map]) {
   const totalVisited = countries.filter(c => c.visited).length;
   $('header h3').textContent = `Visited: ${totalVisited}/${countries.length}`;
 
-  // Handle click on map to scroll sidebar.
-  map.element.addEventListener('click', revealCountryInSidebar, false);
-  map.element.addEventListener('touchend', revealCountryInSidebar, false);
+  // Hover countries when hovering over
+  countrylist.addEventListener('mousemove', hoverCountry, false);
+  countrylist.addEventListener('mouseleave', hoverCountry, false);
+  countrylist.addEventListener('touchend', hoverCountry, false);
+  map.element.addEventListener('mousemove', hoverCountry, false);
+  map.element.addEventListener('mouseleave', hoverCountry, false);
+  map.element.addEventListener('touchend', hoverCountry, false);
 
-  // Handle click for sidebar
-  countrylist.addEventListener('mousemove', revealCountryOnMap, false);
-  countrylist.addEventListener('mouseleave', revealCountryOnMap, false);
-  countrylist.addEventListener('touchend', revealCountryOnMap, false);
+  // Reveal country when clicking
+  map.element.addEventListener('click', revealCountry, false);
+  map.element.addEventListener('touchend', revealCountry, false);
+  countrylist.addEventListener('click', revealCountry, false);
+  countrylist.addEventListener('touchend', revealCountry, false);
 
-  function revealCountryOnMap(event) {
+  function hoverCountry(event) {
     let target = event.target;
     let country = null;
     while (target && !(country = target[Country.Symbol]))
       target = target.parentElement;
-    setRevealedCountry(country);
+    setHoveredCountry(country);
+    event.stopPropagation();
+    event.preventDefault();
   }
 
-  let revealedCountry = null;
-  function setRevealedCountry(country) {
-    if (revealedCountry)
-      revealedCountry.mapElement.classList.remove('revealing');
-    revealedCountry = country;
-    if (revealedCountry)
-      revealedCountry.mapElement.classList.add('revealing');
-  }
-
-  function revealCountryInSidebar(event) {
+  function revealCountry(event) {
     let target = event.target;
     let country = null;
     while (target && !(country = target[Country.Symbol]))
       target = target.parentElement;
-    if (!country)
-      return;
-    country.sidebarElement.scrollIntoView({block2: '', inline: 'center', behavior: 'smooth'});
     setRevealedCountry(country);
     event.stopPropagation();
     event.preventDefault();
   }
+
+  let revealedCountry = null;
+  function setRevealedCountry(country) {
+    if (revealedCountry) {
+      revealedCountry.mapElement.classList.remove('revealing');
+      revealedCountry.sidebarElement.classList.remove('revealing');
+    }
+    revealedCountry = country;
+    if (revealedCountry) {
+      revealedCountry.mapElement.classList.add('revealing');
+      revealedCountry.sidebarElement.classList.add('revealing');
+      //revealedCountry.sidebarElement.scrollIntoView({block2: '', inline: 'center', behavior: 'smooth'});
+      scrollIntoViewIfNeeded(revealedCountry.sidebarElement);
+    }
+  }
+
+  let hoveredCountry = null;
+  function setHoveredCountry(country) {
+    if (hoveredCountry) {
+      hoveredCountry.mapElement.classList.remove('hovered');
+      hoveredCountry.sidebarElement.classList.remove('hovered');
+    }
+    hoveredCountry = country;
+    if (hoveredCountry) {
+      hoveredCountry.mapElement.classList.add('hovered');
+      hoveredCountry.sidebarElement.classList.add('hovered');
+    }
+  }
 };
+
+function scrollIntoViewIfNeeded(target) {
+  const rect = target.getBoundingClientRect();
+  const element = target.ownerDocument.elementFromPoint(rect.x + rect.width / 2, rect.y + rect.height / 2);
+  while (element && element !== target)
+    element = element.parentElement;
+  if (!element) {
+    target.scrollIntoView({block2: '', inline: 'center', behavior: 'smooth'});
+    return;
+  }
+}
