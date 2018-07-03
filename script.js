@@ -33,7 +33,7 @@ class Map {
   static async create() {
     const [svgText, countriesText] = await Promise.all([
       fetch('./world.svg').then(response => response.text()),
-      fetch('./countries.txt').then(response => response.text())
+      fetch('./countries.md').then(response => response.text())
     ]);
     const domParser = new DOMParser();
     const parsedDocument = domParser.parseFromString(svgText, 'text/html');
