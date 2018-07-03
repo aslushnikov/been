@@ -42,6 +42,10 @@ body {
     grid-template-columns: auto;
     grid-template-rows: 50px 1fr 2fr;
   }
+
+  .countrylist {
+    border-top: 1px solid #DDD;
+  }
 }
 
 header {
@@ -62,6 +66,8 @@ header h3 {
   min-height: 0;
   overflow: auto;
   --gap-left: 10px;
+  /* support smooth scrolling on safari */
+  -webkit-overflow-scrolling: touch;
 }
 
 .countrylist .region {
