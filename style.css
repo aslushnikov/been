@@ -52,10 +52,12 @@ header {
   grid-area: header;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: 0 1em;
 }
 
 header h3 {
-  margin: 1em;
+  margin: 0em;
 }
 
 .countrylist {
