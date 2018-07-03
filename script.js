@@ -106,30 +106,41 @@ async function onMapLoaded([map]) {
   $('header h3').textContent = `Visited: ${totalVisited}/${countries.length}`;
 
   // Handle click on map to scroll sidebar.
-  map.element.addEventListener('click', event => {
-    let target = event.target;
-    while (target && !target.classList.contains('land'))
-      target = target.parentElement;
-    const country = target ? target[Country.Symbol] : null;
-    if (!country)
-      return;
-    country.sidebarElement.scrollIntoView({block2: '', inline: 'center', behavior: 'smooth'});
-  }, false);
+  map.element.addEventListener('click', revealCountryInSidebar, false);
+  map.element.addEventListener('touchend', revealCountryInSidebar, false);
 
   // Handle click for sidebar
-  countrylist.addEventListener('mousemove', revealCountry, false);
-  countrylist.addEventListener('mouseleave', revealCountry, false);
+  countrylist.addEventListener('mousemove', revealCountryOnMap, false);
+  countrylist.addEventListener('mouseleave', revealCountryOnMap, false);
+  countrylist.addEventListener('touchend', revealCountryOnMap, false);
 
-  let revealedCountry = null;
-  function revealCountry(mouseEvent) {
-    let target = mouseEvent.target;
+  function revealCountryOnMap(event) {
+    let target = event.target;
     let country = null;
     while (target && !(country = target[Country.Symbol]))
       target = target.parentElement;
+    setRevealedCountry(country);
+  }
+
+  let revealedCountry = null;
+  function setRevealedCountry(country) {
     if (revealedCountry)
       revealedCountry.mapElement.classList.remove('revealing');
     revealedCountry = country;
     if (revealedCountry)
       revealedCountry.mapElement.classList.add('revealing');
+  }
+
+  function revealCountryInSidebar(event) {
+    let target = event.target;
+    let country = null;
+    while (target && !(country = target[Country.Symbol]))
+      target = target.parentElement;
+    if (!country)
+      return;
+    country.sidebarElement.scrollIntoView({block2: '', inline: 'center', behavior: 'smooth'});
+    setRevealedCountry(country);
+    event.stopPropagation();
+    event.preventDefault();
   }
 };
