@@ -1,5 +1,6 @@
 class Country {
-  constructor(id, name, element, visited) {
+  constructor(region, id, name, element, visited) {
+    this.region = region;
     this.id = id;
     this.name = name;
     this.visited = visited;
@@ -42,6 +43,31 @@ class Map {
     return new Map(svg, countriesText);
   }
 
+  zoomIntoCountry(country) {
+    const rect = country.mapElement.getBBox();
+    const zoomLevel = 75;
+    rect.x -= zoomLevel;
+    rect.y -= zoomLevel;
+    rect.width += 2 * zoomLevel;
+    rect.height += 2 * zoomLevel;
+    this._runZoomAnimation(`${rect.x} ${rect.y} ${rect.width} ${rect.height}`);
+  }
+
+  resetZoom() {
+    this._runZoomAnimation(this._initialViewbox);
+  }
+
+  _runZoomAnimation(viewBox) {
+    if (this._animation)
+      this._animation.pause();
+    this._animation = anime({
+      targets: this.element,
+      easing: 'easeOutCubic',
+      duration: 300,
+      viewBox
+    });
+  }
+
   constructor(svg, countriesText) {
     this.regions = [];
     let region = null;
@@ -62,13 +88,14 @@ class Map {
         const id = match[2];
         const name = match[3];
         const element = svg.querySelector('#'+ id);
-        const country = new Country(id, name, element, visited);
+        const country = new Country(region, id, name, element, visited);
         region.countries.push(country);
       }
     }
     for (const region of this.regions)
       region.countries.sort((a, b) => a.name.localeCompare(b.name));
     this.element = svg;
+    this._initialViewbox = this.element.getAttribute('viewBox');
   }
 }
 
@@ -148,6 +175,9 @@ async function onMapLoaded([map]) {
       revealedCountry.mapElement.classList.add('revealing');
       revealedCountry.sidebarElement.classList.add('revealing');
       scrollIntoViewIfNeeded(revealedCountry.sidebarElement);
+      map.zoomIntoCountry(revealedCountry);
+    } else {
+      map.resetZoom();
     }
   }
 

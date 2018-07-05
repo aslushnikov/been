@@ -1,0 +1,19 @@
+{
+  "name": "been",
+  "version": "0.1.0",
+  "description": "list of visited countries",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aslushnikov/been.git"
+  },
+  "author": "aslushnikov@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/aslushnikov/been/issues"
+  },
+  "homepage": "https://github.com/aslushnikov/been#readme"
+}
