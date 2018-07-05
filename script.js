@@ -159,6 +159,8 @@ async function onMapLoaded([map]) {
     let country = null;
     while (target && !(country = target[Country.Symbol]))
       target = target.parentElement;
+    if (country === revealedCountry)
+      country = null;
     setRevealedCountry(country);
     event.stopPropagation();
     event.preventDefault();
@@ -177,6 +179,7 @@ async function onMapLoaded([map]) {
       scrollIntoViewIfNeeded(revealedCountry.sidebarElement);
       map.zoomIntoCountry(revealedCountry);
     } else {
+      setHoveredCountry(null);
       map.resetZoom();
     }
   }
