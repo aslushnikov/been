@@ -89,7 +89,7 @@
 
 # North America
 
-- [ ] CA Canada
+- [x] CA Canada
 - [ ] GL Greenland
 - [x] MX Mexico
 - [ ] SJ Svalbard and Jan Mayen
