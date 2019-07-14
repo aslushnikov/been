@@ -128,6 +128,7 @@ header h3 {
 .map {
   grid-area: map;
   margin: 1em;
+  overflow: hidden;
 }
 
 .map svg {
