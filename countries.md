@@ -99,7 +99,7 @@
 
 - [ ] BS Bahamas
 - [ ] BZ Belize
-- [ ] CR Costa Rica
+- [x] CR Costa Rica
 - [ ] CU Cuba
 - [ ] DO Dominican Republic
 - [ ] SV El Salvador
@@ -118,7 +118,7 @@
 - [ ] BO Bolivia
 - [ ] BR Brazil
 - [ ] CL Chile
-- [ ] CO Colombia
+- [x] CO Colombia
 - [ ] EC Ecuador
 - [ ] FK Falkland Islands
 - [ ] GF French Guiana
