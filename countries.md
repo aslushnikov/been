@@ -64,7 +64,7 @@
 - [ ] MY Malaysia
 - [ ] MN Mongolia
 - [ ] MM Myanmar
-- [ ] NP Nepal
+- [x] NP Nepal
 - [ ] KP North Korea
 - [ ] OM Oman
 - [ ] PK Pakistan
@@ -80,7 +80,7 @@
 - [ ] TJ Tajikistan
 - [x] TH Thailand
 - [ ] TL Timor-Leste
-- [ ] TR Turkey
+- [x] TR Turkey
 - [ ] TM Turkmenistan
 - [x] AE United Arab Emirates
 - [ ] UZ Uzbekistan
