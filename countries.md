@@ -119,7 +119,7 @@
 - [ ] BR Brazil
 - [ ] CL Chile
 - [x] CO Colombia
-- [ ] EC Ecuador
+- [x] EC Ecuador
 - [ ] FK Falkland Islands
 - [ ] GF French Guiana
 - [ ] GY Guyana
