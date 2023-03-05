@@ -48,7 +48,7 @@
 - [ ] BT Bhutan
 - [ ] BN Brunei Darussalam
 - [ ] CN China
-- [ ] GE Georgia
+- [x] GE Georgia
 - [ ] IN India
 - [ ] ID Indonesia
 - [ ] IR Iran
@@ -56,7 +56,7 @@
 - [ ] IL Israel
 - [x] JP Japan
 - [ ] JO Jordan
-- [ ] KZ Kazakhstan
+- [x] KZ Kazakhstan
 - [ ] KW Kuwait
 - [ ] KG Kyrgyzstan
 - [ ] LA Lao People's Democratic Republic
