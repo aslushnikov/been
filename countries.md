@@ -152,7 +152,7 @@
 - [ ] CM Cameroon
 - [ ] CF Central African Republic
 - [ ] TD Chad
-- [ ] CY Cyprus
+- [x] CY Cyprus
 - [ ] CI Côte d'Ivoire
 - [ ] CD Democratic Republic of Congo
 - [ ] DJ Djibouti
