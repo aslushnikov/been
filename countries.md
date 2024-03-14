@@ -58,7 +58,7 @@
 - [ ] JO Jordan
 - [x] KZ Kazakhstan
 - [ ] KW Kuwait
-- [ ] KG Kyrgyzstan
+- [x] KG Kyrgyzstan
 - [ ] LA Lao People's Democratic Republic
 - [ ] LB Lebanon
 - [ ] MY Malaysia
