@@ -173,7 +173,7 @@
 - [ ] MW Malawi
 - [ ] ML Mali
 - [ ] MR Mauritania
-- [ ] MA Morocco
+- [x] MA Morocco
 - [ ] MZ Mozambique
 - [ ] NA Namibia
 - [ ] NE Niger
