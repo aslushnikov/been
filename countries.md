@@ -1,116 +1,237 @@
 # Europe
 
+- [ ] AD Andorra
 - [ ] AL Albania
 - [x] AT Austria
-- [x] BY Belarus
-- [ ] BE Belgium
+- [ ] AX Aland Islands
 - [ ] BA Bosnia and Herzegovina
+- [ ] BE Belgium
 - [ ] BG Bulgaria
-- [ ] HR Croatia
+- [x] BY Belarus
+- [x] CH Switzerland
+- [x] CY Cyprus
 - [x] CZ Czech Republic
+- [x] DE Germany
 - [x] DK Denmark
 - [x] EE Estonia
+- [x] ES Spain
 - [x] FI Finland
+- [ ] FO Faroe Islands
 - [x] FR France
-- [x] DE Germany
+- [x] GB United Kingdom
+- [ ] GG Guernsey
+- [ ] GI Gibraltar
 - [ ] GR Greece
+- [ ] HR Croatia
 - [ ] HU Hungary
-- [ ] IS Iceland
 - [ ] IE Ireland
+- [ ] IM Isle of Man
+- [ ] IS Iceland
 - [x] IT Italy
-- [ ] XK Kosovo
-- [x] LV Latvia
+- [ ] JE Jersey
+- [ ] LI Liechtenstein
 - [x] LT Lithuania
 - [ ] LU Luxembourg
-- [ ] MK Macedonia
+- [x] LV Latvia
+- [x] MC Monaco
 - [x] MD Moldova
 - [ ] ME Montenegro
+- [ ] MK Macedonia
+- [ ] MT Malta
 - [x] NL Netherlands
 - [ ] NO Norway
 - [x] PL Poland
 - [x] PT Portugal
 - [ ] RO Romania
 - [ ] RS Serbia
-- [ ] SK Slovakia
-- [ ] SI Slovenia
-- [x] ES Spain
+- [x] RU Russia
 - [ ] SE Sweden
-- [x] CH Switzerland
+- [ ] SI Slovenia
+- [ ] SJ Svalbard and Jan Mayen
+- [ ] SK Slovakia
+- [ ] SM San Marino
 - [x] UA Ukraine
-- [x] GB United Kingdom
+- [ ] VA Vatican City
+- [ ] XK Kosovo
 
 # Asia
 
+- [x] AE United Arab Emirates
 - [ ] AF Afghanistan
 - [x] AM Armenia
 - [ ] AZ Azerbaijan
 - [ ] BD Bangladesh
-- [ ] BT Bhutan
+- [ ] BH Bahrain
 - [ ] BN Brunei Darussalam
+- [ ] BT Bhutan
 - [ ] CN China
 - [x] GE Georgia
-- [ ] IN India
+- [ ] HK Hong Kong
 - [ ] ID Indonesia
-- [ ] IR Iran
-- [ ] IQ Iraq
 - [ ] IL Israel
-- [x] JP Japan
+- [ ] IN India
+- [ ] IQ Iraq
+- [ ] IR Iran
 - [ ] JO Jordan
-- [x] KZ Kazakhstan
-- [ ] KW Kuwait
+- [x] JP Japan
 - [x] KG Kyrgyzstan
+- [ ] KH Cambodia
+- [ ] KP North Korea
+- [ ] KR South Korea
+- [ ] KW Kuwait
+- [x] KZ Kazakhstan
 - [ ] LA Lao People's Democratic Republic
 - [ ] LB Lebanon
-- [ ] MY Malaysia
-- [ ] MN Mongolia
+- [ ] LK Sri Lanka
 - [ ] MM Myanmar
+- [ ] MN Mongolia
+- [ ] MO Macau
+- [ ] MV Maldives
+- [ ] MY Malaysia
 - [x] NP Nepal
-- [ ] KP North Korea
 - [ ] OM Oman
+- [ ] PH Philippines
 - [ ] PK Pakistan
 - [ ] PS Palestinian Territories
-- [ ] PH Philippines
 - [ ] QA Qatar
-- [x] RU Russia
 - [ ] SA Saudi Arabia
-- [ ] KR South Korea
-- [ ] LK Sri Lanka
+- [ ] SG Singapore
 - [ ] SY Syria
-- [ ] TW Taiwan
-- [ ] TJ Tajikistan
 - [x] TH Thailand
+- [ ] TJ Tajikistan
 - [ ] TL Timor-Leste
-- [x] TR Turkey
 - [ ] TM Turkmenistan
-- [x] AE United Arab Emirates
+- [x] TR Turkey
+- [ ] TW Taiwan
 - [ ] UZ Uzbekistan
 - [ ] VN Vietnam
 - [ ] YE Yemen
 
+# Africa
+
+- [ ] AO Angola
+- [ ] BF Burkina Faso
+- [ ] BI Burundi
+- [ ] BJ Benin
+- [ ] BW Botswana
+- [ ] CD Democratic Republic of Congo
+- [ ] CF Central African Republic
+- [ ] CG Republic of Congo
+- [ ] CI Côte d'Ivoire
+- [ ] CM Cameroon
+- [ ] CV Cape Verde
+- [ ] DJ Djibouti
+- [ ] DZ Algeria
+- [ ] EG Egypt
+- [ ] EH Western Sahara
+- [ ] ER Eritrea
+- [ ] ET Ethiopia
+- [ ] GA Gabon
+- [ ] GH Ghana
+- [ ] GM Gambia
+- [ ] GN Guinea
+- [ ] GO Glorioso Islands
+- [ ] GQ Equatorial Guinea
+- [ ] GW Guinea-Bissau
+- [x] KE Kenya
+- [ ] KM Comoros
+- [ ] LR Liberia
+- [ ] LS Lesotho
+- [ ] LY Libya
+- [x] MA Morocco
+- [ ] MG Madagascar
+- [ ] ML Mali
+- [ ] MR Mauritania
+- [x] MU Mauritius
+- [ ] MW Malawi
+- [ ] MZ Mozambique
+- [ ] NA Namibia
+- [ ] NE Niger
+- [ ] NG Nigeria
+- [ ] RE Reunion
+- [ ] RW Rwanda
+- [ ] SC Seychelles
+- [ ] SD Sudan
+- [ ] SL Sierra Leone
+- [ ] SN Senegal
+- [ ] SO Somalia
+- [ ] SS South Sudan
+- [ ] ST Sao Tome and Principe
+- [ ] SZ Swaziland
+- [ ] TD Chad
+- [ ] TG Togo
+- [x] TN Tunisia
+- [ ] TZ Tanzania
+- [ ] UG Uganda
+- [ ] YT Mayotte
+- [ ] ZA South Africa
+- [ ] ZM Zambia
+- [ ] ZW Zimbabwe
+
+# Oceania
+
+- [ ] AS American Samoa
+- [x] AU Australia
+- [ ] CC Cocos Keeling Islands
+- [ ] CK Cook Islands
+- [ ] CX Christmas Island
+- [ ] FJ Fiji
+- [ ] FM Federated States of Micronesia
+- [ ] GU Guam
+- [ ] HM Heard Island and McDonald Islands
+- [ ] KI Kiribati
+- [ ] MH Marshall Islands
+- [ ] MP Northern Mariana Islands
+- [ ] NC New Caledonia
+- [ ] NF Norfolk Island
+- [ ] NR Nauru
+- [ ] NU Niue
+- [ ] NZ New Zealand
+- [ ] PF French Polynesia
+- [ ] PG Papua New Guinea
+- [ ] PN Pitcairn Islands
+- [ ] PW Palau
+- [ ] SB Solomon Islands
+- [ ] TK Tokelau
+- [ ] TO Tonga
+- [ ] TV Tuvalu
+- [ ] UM-DQ Jarvis Island
+- [ ] UM-FQ Baker Island
+- [ ] UM-HQ Howland Island
+- [ ] UM-JQ Johnston Atoll
+- [ ] UM-MQ Midway Islands
+- [ ] UM-WQ Wake Island
+- [ ] VU Vanuatu
+- [ ] WF Wallis and Futuna
+- [ ] WS Samoa
+
 # North America
 
+- [ ] BM Bermuda
 - [x] CA Canada
 - [ ] GL Greenland
-- [x] MX Mexico
-- [ ] SJ Svalbard and Jan Mayen
+- [ ] PM Saint Pierre and Miquelon
 - [x] US United States
 
 # Central America
 
-- [ ] BS Bahamas
 - [ ] BZ Belize
 - [x] CR Costa Rica
 - [ ] CU Cuba
 - [ ] DO Dominican Republic
-- [ ] SV El Salvador
 - [ ] GT Guatemala
-- [ ] HT Haiti
 - [ ] HN Honduras
+- [ ] HT Haiti
 - [ ] JM Jamaica
+- [ ] KY Cayman Islands
+- [x] MX Mexico
 - [ ] NI Nicaragua
 - [ ] PA Panama
 - [ ] PR Puerto Rico
+- [ ] SV El Salvador
+- [ ] TC Turks and Caicos Islands
 - [ ] TT Trinidad and Tobago
+- [ ] VI US Virgin Islands
 
 # South America
 
@@ -122,76 +243,37 @@
 - [x] EC Ecuador
 - [ ] FK Falkland Islands
 - [ ] GF French Guiana
+- [ ] GS South Georgia and South Sandwich Islands
 - [ ] GY Guyana
-- [ ] PY Paraguay
 - [x] PE Peru
+- [ ] PY Paraguay
 - [ ] SR Suriname
 - [ ] UY Uruguay
 - [ ] VE Venezuela
 
-# Oceania
+# Other
 
-- [x] AU Australia
-- [ ] FJ Fiji
+- [ ] AG Antigua and Barbuda
+- [ ] AI Anguilla
+- [ ] AW Aruba
+- [ ] BB Barbados
+- [ ] BL Saint Barthelemy
+- [ ] BQ Bonaire, Saint Eustachius and Saba
+- [ ] BS Bahamas
+- [ ] BV Bouvet Island
+- [ ] CW Curaçao
+- [ ] DM Dominica
+- [ ] GD Grenada
+- [ ] GP Guadeloupe
+- [ ] IO British Indian Ocean Territory
+- [ ] JU Juan De Nova Island
+- [ ] KN Saint Kitts and Nevis
+- [ ] LC Saint Lucia
+- [ ] MF Saint Martin
+- [ ] MQ Martinique
+- [ ] MS Montserrat
+- [ ] SH Saint Helena
+- [ ] SX Saint Martin
 - [ ] TF French Southern and Antarctic Lands
-- [ ] NC New Caledonia
-- [ ] NZ New Zealand
-- [ ] PG Papua New Guinea
-- [ ] SB Solomon Islands
-- [ ] VU Vanuatu
-
-# Africa
-
-- [ ] DZ Algeria
-- [ ] AO Angola
-- [ ] BJ Benin
-- [ ] BW Botswana
-- [ ] BF Burkina Faso
-- [ ] BI Burundi
-- [ ] KH Cambodia
-- [ ] CM Cameroon
-- [ ] CF Central African Republic
-- [ ] TD Chad
-- [x] CY Cyprus
-- [ ] CI Côte d'Ivoire
-- [ ] CD Democratic Republic of Congo
-- [ ] DJ Djibouti
-- [ ] EG Egypt
-- [ ] GQ Equatorial Guinea
-- [ ] ER Eritrea
-- [ ] ET Ethiopia
-- [ ] GA Gabon
-- [ ] GM Gambia
-- [ ] GH Ghana
-- [ ] GN Guinea
-- [ ] GW Guinea-Bissau
-- [x] KE Kenya
-- [ ] LS Lesotho
-- [ ] LR Liberia
-- [ ] LY Libya
-- [ ] MG Madagascar
-- [ ] MW Malawi
-- [ ] ML Mali
-- [ ] MR Mauritania
-- [x] MA Morocco
-- [ ] MZ Mozambique
-- [ ] NA Namibia
-- [ ] NE Niger
-- [ ] NG Nigeria
-- [ ] CG Republic of Congo
-- [ ] RW Rwanda
-- [ ] SN Senegal
-- [ ] SL Sierra Leone
-- [ ] SO Somalia
-- [ ] ZA South Africa
-- [ ] SS South Sudan
-- [ ] SD Sudan
-- [ ] SZ Swaziland
-- [ ] TZ Tanzania
-- [ ] TG Togo
-- [x] TN Tunisia
-- [ ] UG Uganda
-- [ ] EH Western Sahara
-- [ ] ZM Zambia
-- [ ] ZW Zimbabwe
-
+- [ ] VC Saint Vincent and the Grenadines
+- [ ] VG British Virgin Islands

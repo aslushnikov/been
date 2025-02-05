@@ -30,10 +30,28 @@ class Region {
   }
 }
 
+async function fetchAndDecompress(url) {
+    // Fetch the compressed file
+    const response = await fetch(url);
+    const compressedStream = response.body;
+
+    // Check if the browser supports decompressionStream
+    if (!window.DecompressionStream) {
+        throw new Error("Your browser does not support DecompressionStream.");
+    }
+
+    // Create a decompression stream
+    const decompressionStream = new DecompressionStream("gzip");
+    const decompressedStream = compressedStream.pipeThrough(decompressionStream);
+
+    // Read the stream as text
+    return new Response(decompressedStream);
+}
+
 class Map {
   static async create() {
     const [svgText, countriesText] = await Promise.all([
-      fetch('./world.svg').then(response => response.text()),
+      fetchAndDecompress('./world.svg.gz').then(response => response.text()),
       fetch('./countries.md').then(response => response.text())
     ]);
     const domParser = new DOMParser();
@@ -79,7 +97,7 @@ class Map {
         region = new Region(entry.substring(2).trim());
         this.regions.push(region);
       } else {
-        const match = entry.match(/^-\s*\[(.*)\]\s+([A-Za-z]{2})\s+(.*)$/);
+        const match = entry.match(/^-\s*\[(.*)\]\s+([A-Za-z]{2}|[A-Za-z]{2}-[A-Za-z]{2})\s+(.*)$/);
         if (!match) {
           console.error('Failed to parse line!\n  ' + entry);
           continue;

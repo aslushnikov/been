@@ -148,11 +148,16 @@ header h3 {
   fill: #8bc34a;
 }
 
-.map svg .land {
+.map svg path {
   cursor: pointer;
+  fill: #ccc;
+  fill-opacity: 1;
+  stroke: white;
+  stroke-opacity: 1;
+  stroke-width: 0.5;
 }
 
-.map svg .land.hovered {
+.map svg path.hovered {
   fill: blue;
   fill-opacity: 0.5;
 }
