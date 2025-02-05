@@ -1,7 +1,7 @@
 # Europe
 
 - [ ] AL Albania
-- [ ] AT Austria
+- [x] AT Austria
 - [x] BY Belarus
 - [ ] BE Belgium
 - [ ] BA Bosnia and Herzegovina
