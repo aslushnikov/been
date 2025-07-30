@@ -67,9 +67,9 @@
 - [ ] CN China
 - [x] GE Georgia
 - [ ] HK Hong Kong
-- [ ] ID Indonesia
+- [x] ID Indonesia
 - [ ] IL Israel
-- [ ] IN India
+- [x] IN India
 - [ ] IQ Iraq
 - [ ] IR Iran
 - [ ] JO Jordan
