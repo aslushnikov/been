@@ -1,6 +1,6 @@
 # Europe
 
-- [ ] AD Andorra
+- [x] AD Andorra
 - [ ] AL Albania
 - [x] AT Austria
 - [ ] AX Aland Islands
