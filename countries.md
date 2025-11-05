@@ -122,7 +122,7 @@
 - [ ] CV Cape Verde
 - [ ] DJ Djibouti
 - [ ] DZ Algeria
-- [ ] EG Egypt
+- [x] EG Egypt
 - [ ] EH Western Sahara
 - [ ] ER Eritrea
 - [ ] ET Ethiopia
