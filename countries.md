@@ -77,7 +77,7 @@
 - [x] KG Kyrgyzstan
 - [ ] KH Cambodia
 - [ ] KP North Korea
-- [ ] KR South Korea
+- [x] KR South Korea
 - [ ] KW Kuwait
 - [x] KZ Kazakhstan
 - [ ] LA Lao People's Democratic Republic
